@@ -2,15 +2,21 @@
 LIO SAM Gazebo ROS2 
 
 git clone https://github.com/TixiaoShan/LIO-SAM.git
+
 cd lio-sam
+
 git checkout ros2
+
 cd ..
+
 colcon build
 
 ## Run the package
 
 1. Run the launch file:
+2. 
 source lio_sam_gazebo_ros2/install/setup.bash
+
 ros2 launch lio_sam run.launch.py
 
 
