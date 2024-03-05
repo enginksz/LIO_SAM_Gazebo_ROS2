@@ -11,14 +11,13 @@ cd ..
 
 colcon build
 
-## Run the package
+# Run the package
 
-1. Run the launch file:
-2. 
+Run the launch file:
+
 source lio_sam_gazebo_ros2/install/setup.bash
 
 ros2 launch lio_sam run.launch.py
-
 
 terminal 2 
 ros2 launch robot_gazebo robot_sim.launch.py
