@@ -17,8 +17,9 @@ Run the launch file:
 
 source lio_sam_gazebo_ros2/install/setup.bash
 
+## terminal 1 
 ros2 launch lio_sam run.launch.py
 
-terminal 2 
+## terminal 2 
 ros2 launch robot_gazebo robot_sim.launch.py
 
